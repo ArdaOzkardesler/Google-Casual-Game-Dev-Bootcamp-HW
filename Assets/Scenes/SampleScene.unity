@@ -397,6 +397,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 10
+--- !u!114 &245793401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 245793395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf23757e670e4ea409b93ad2ef64b8d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spawnPoints: []
+  _selectedSpawnPoint: {fileID: 0}
+  meteor: {fileID: 6699627395340140415, guid: 94cbda6dd67e7814b95e6f0afebb39c6, type: 3}
 --- !u!1001 &261527635
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -489,6 +504,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 15
+--- !u!114 &278087387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278087375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2260a2f1a19c3f4469fa19893698b74a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetNameText: {fileID: 1247092568}
 --- !u!1 &302697056
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,6 +618,37 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &310883079
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 310883080}
+  m_Layer: 0
+  m_Name: MeteorSpawnPoint1
+  m_TagString: MeteorSpawnPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &310883080
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310883079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 70.7, z: 102.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &408368476 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4387678931267766, guid: 1818e1a170ef94c3aacee2ba50057521, type: 3}
@@ -756,6 +815,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 15
+--- !u!114 &646971906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 646971897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2260a2f1a19c3f4469fa19893698b74a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetNameText: {fileID: 1247092568}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1020,6 +1092,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 10
+--- !u!114 &847691176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206095896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2260a2f1a19c3f4469fa19893698b74a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetNameText: {fileID: 1247092568}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1146,7 +1231,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 436275a13d4459746955fc6db5953473, type: 3}
   m_Name: 
@@ -1217,6 +1302,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4030326048459444, guid: 7e4bfb3c6ba1d4bc4ba31d585abdae0f, type: 3}
   m_PrefabInstance: {fileID: 1659079494}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1185828901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1185828902}
+  m_Layer: 0
+  m_Name: MeteorSpawnPoint2
+  m_TagString: MeteorSpawnPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1185828902
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185828901}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 145.8, y: 54.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1247092566
 GameObject:
   m_ObjectHideFlags: 0
@@ -1568,6 +1684,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 15
+--- !u!114 &1425852312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600428274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2260a2f1a19c3f4469fa19893698b74a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetNameText: {fileID: 1247092568}
 --- !u!1 &1486067609
 GameObject:
   m_ObjectHideFlags: 0
@@ -1700,6 +1829,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 15
+--- !u!114 &1566192759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566192750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2260a2f1a19c3f4469fa19893698b74a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetNameText: {fileID: 1247092568}
 --- !u!1001 &1659079494
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1925,6 +2067,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 10
+--- !u!114 &1831270290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831270281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2260a2f1a19c3f4469fa19893698b74a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetNameText: {fileID: 1247092568}
+--- !u!1 &1861261775 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6563966954327991749, guid: 5f776740c447e45afb25edbca842de92, type: 3}
+  m_PrefabInstance: {fileID: 1922446990}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1861261780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861261775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2260a2f1a19c3f4469fa19893698b74a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetNameText: {fileID: 1247092568}
 --- !u!1 &1882677761 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1647581975099426, guid: 835acc1a9ebe24c0fa3854c99346f9cd, type: 3}
@@ -1943,6 +2116,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 20
+--- !u!114 &1882677770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882677761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2260a2f1a19c3f4469fa19893698b74a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetNameText: {fileID: 1247092568}
 --- !u!1001 &1922446990
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2018,6 +2204,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6563966954327991749, guid: 5f776740c447e45afb25edbca842de92, type: 3}
+      propertyPath: m_Name
+      value: Sun
+      objectReference: {fileID: 0}
+    - target: {fileID: 9043803773543394101, guid: 5f776740c447e45afb25edbca842de92, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9044901043609740531, guid: 5f776740c447e45afb25edbca842de92, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f776740c447e45afb25edbca842de92, type: 3}
 --- !u!4 &1955507858 stripped
@@ -2025,6 +2223,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4620931210112870, guid: ab152f61198d54532ae39108e616ff59, type: 3}
   m_PrefabInstance: {fileID: 495903558}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2005663633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2005663634}
+  m_Layer: 0
+  m_Name: MeteorSpawnPoint3
+  m_TagString: MeteorSpawnPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2005663634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005663633}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -162.1, y: 77.2, z: -110.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2024135513
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2100,6 +2329,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 25
+--- !u!114 &2043395242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043395233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2260a2f1a19c3f4469fa19893698b74a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetNameText: {fileID: 1247092568}
 --- !u!1 &2103173198 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1526814149960808, guid: 7e4bfb3c6ba1d4bc4ba31d585abdae0f, type: 3}
@@ -2118,3 +2360,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 10
+--- !u!114 &2103173207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103173198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2260a2f1a19c3f4469fa19893698b74a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetNameText: {fileID: 1247092568}
