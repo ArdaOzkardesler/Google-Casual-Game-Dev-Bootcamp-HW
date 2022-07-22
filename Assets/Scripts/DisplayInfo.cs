@@ -6,8 +6,6 @@ using TMPro;
 public class DisplayInfo : MonoBehaviour
 {
     [SerializeField] TMP_Text infoText;
-    Color startColor = new Color(255,255,255,0);
-    Color endColor = new Color(255,255,255,255);
 
     public void DispText(){
         StartCoroutine(DisplayInfoText());
