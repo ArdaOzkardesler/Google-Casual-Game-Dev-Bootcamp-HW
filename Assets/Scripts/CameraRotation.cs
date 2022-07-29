@@ -6,9 +6,12 @@ public class CameraRotation : MonoBehaviour
    public float maxIdleTime = 3f;
    Vector3 lastMousePos = Vector3.zero;
    float counter = 0f;
-   [SerializeField] Transform sun;
+   public Transform sun;
    [SerializeField] float rotationSpeed;
- 
+
+   private void Start() {
+      sun=GameObject.Find("Sun").transform;
+   }
    void Update()
    {
       Vector3 mousePosition = Input.mousePosition;

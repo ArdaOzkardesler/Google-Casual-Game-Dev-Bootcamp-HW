@@ -6,9 +6,12 @@ using TMPro;
   
 public class DisplayPlanetName: MonoBehaviour {  
   
-  [SerializeField] TMP_Text planetNameText;
+  public TMP_Text planetNameText;
   
-  // Update is called once per frame    
+  private void Start() {
+    planetNameText=(TMP_Text)FindObjectOfType(typeof(TMP_Text));
+  }
+
   void OnMouseDown() {  
     if (Input.GetMouseButtonDown(0)) {  
       Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);  
