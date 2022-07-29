@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e85b629d69a9474c945496a7c0d9e12, type: 3}
+  m_Name: Moon
+  m_EditorClassIdentifier: 
+  _celestialName: Moon
+  CelestialDescription: Earth's Moon
+  Radius: 1.737
+  CelestialPrefab: {fileID: 1408581670749804, guid: ceaa6ad3c90e8bc41ab3fe6739f16d7f, type: 3}
+  _moonPrefab: {fileID: 1408581670749804, guid: ceaa6ad3c90e8bc41ab3fe6739f16d7f, type: 3}
+  _orbitRadius: 5

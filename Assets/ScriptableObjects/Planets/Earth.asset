@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b4a55cfc2813704aaa856a1fc86bb2e, type: 3}
+  m_Name: Earth
+  m_EditorClassIdentifier: 
+  _celestialName: 
+  CelestialDescription: Pale Blue Dot
+  Radius: 6.371
+  CelestialPrefab: {fileID: 1607992633825164294, guid: 52da837edcee1724db2030f2ae593664, type: 3}
+  Population: 8000000000
+  Moons:
+  - {fileID: 11400000, guid: 962781a1fb5efe4499a3bc3b05c35612, type: 2}

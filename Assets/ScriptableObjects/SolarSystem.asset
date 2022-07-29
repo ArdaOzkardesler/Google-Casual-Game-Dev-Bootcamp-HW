@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6ad13d6278f91844a2a69d08c539a24, type: 3}
+  m_Name: SolarSystem
+  m_EditorClassIdentifier: 
+  Star: {fileID: 11400000, guid: 9291a47a95ae8004c9c873d57879b3b6, type: 2}
+  Planets:
+  - Planet: {fileID: 11400000, guid: be69ccef05dd78649b08b5f742081e0c, type: 2}
+    DistanceToStar: 20
+    Moons: []
+  - Planet: {fileID: 11400000, guid: b42168104344fef419dcefcc26b51ab7, type: 2}
+    DistanceToStar: 30
+    Moons: []
+  - Planet: {fileID: 11400000, guid: 22e4cf342f602bb41b8a614d463df09c, type: 2}
+    DistanceToStar: 40
+    Moons:
+    - Moon: {fileID: 11400000, guid: 962781a1fb5efe4499a3bc3b05c35612, type: 2}
+      DistanceToPlanet: 5
+  - Planet: {fileID: 11400000, guid: 4ff427c1a25c6084a9ff445fd297f614, type: 2}
+    DistanceToStar: 50
+    Moons: []
+  - Planet: {fileID: 11400000, guid: 63c4620566880d247b2a324c9172b3c4, type: 2}
+    DistanceToStar: 60
+    Moons: []
+  - Planet: {fileID: 11400000, guid: bd610b9d8a7378d478db111ed3ba90dd, type: 2}
+    DistanceToStar: 70
+    Moons: []
+  - Planet: {fileID: 11400000, guid: 2ee8f3d998667544d8d53e88db4a322c, type: 2}
+    DistanceToStar: 80
+    Moons: []
+  - Planet: {fileID: 11400000, guid: a4ea9cdfb34cebf4b9a0ea6ce892713b, type: 2}
+    DistanceToStar: 90
+    Moons: []
+  - Planet: {fileID: 11400000, guid: 0c8c87e77f3b20d47a9a8005701d300d, type: 2}
+    DistanceToStar: 100
+    Moons: []
